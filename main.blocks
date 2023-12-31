@@ -1,0 +1,31 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_button_event" id=".{RI_DWfw3`{_qu-N,HA" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="=E}`uwLU+!!C%](neR4_"><field name="LEDS">`
+        . . # . . 
+        . # . # . 
+        . # # # . 
+        . # . # . 
+        . # . # .
+        `</field><next><block type="device_show_leds" id="qTRay`0j}(nY^w]oN+-("><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></statement></block><block type="device_button_event" id="mVGbIX2_RIB4X#cm^KE4" x="2" y="532"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="0at,k(_~)~TTRC|I(my{"><field name="LEDS">`
+        . # # . . 
+        . # . # . 
+        . # # . . 
+        . # . # . 
+        . # # . .
+        `</field><next><block type="device_show_number" id="GI^a=qW#^t(7_eff-}66"><value name="number"><shadow type="math_number" id="rCPS1n_X`SQGMgC3aUwk"><field name="NUM">1</field></shadow></value></block></next></block></statement></block><block type="device_button_event" id="]a.j:_%+`_KAi/P4)Q,Y" x="0" y="891"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_show_leds" id="Q.WVU9c!Ot28jA{Sqd8E"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field><next><block type="music_playable_play" id="5B?e6HKC`#)A*!o;b=cT"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_string_playable"><value name="melody"><shadow type="melody_editor"><field name="melody">"C D E F G A B C5 "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">120</field></shadow></value></shadow><block type="music_string_playable" id="K[@@#5-O4%DAmO[X=o5j"><value name="melody"><shadow type="melody_editor" id="%O=$:.T(OMLxK/{]-2e$"><field name="melody">"C D E F G A B C5 "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="b_L5yt]7`{~dy%!XR,g0"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">120</field></shadow></value></block></value><next><block type="device_show_leds" id="XdZC;jc^=}^L0IinN77c"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></next></block></statement></block></xml>
